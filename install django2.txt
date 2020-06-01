@@ -1,0 +1,13 @@
+pip install virtualenv
+virtualenv env1
+.\env1\scripts\activate
+pip install django
+django-admin startproject mysite
+python manage.py runserver
+python manage.py startapp site1
+python manage.py makemigrations
+--------------------------------
+page admin
+----------
+python manage.py migrate
+python manage.py createsuperuser

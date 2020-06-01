@@ -1,0 +1,12 @@
+py --version
+py -m pip install virtualenvwrapper-win
+mkvirtualenv myproject
+workon myproject
+------------------------------------
+py -m pip install Django
+
+
+
+-------------------------------------
+git help
+git clone https://github.com/django/django.git
